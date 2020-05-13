@@ -1,0 +1,105 @@
+* {
+   margin: 0;
+   padding: 0;
+}
+
+body {
+	font-size: 1em;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	background-color: #e6e6e6;
+}
+
+/*Cabeçalho*/
+
+#cabecalho {
+   background-color: #f7b600;
+   text-align: center;
+   padding: 30px;
+}
+
+.logo {
+   padding-bottom: 20px;
+   font-size: 40px;
+}
+
+.corMenu{
+   color: white;
+}
+
+.menu {
+   padding: 10px;
+   font-size: 15px;
+}
+
+a:link, a:visited {
+   text-decoration: none;
+   color: white;
+}
+
+a:hover {
+   background-color: white;
+   padding: 5px 10px;
+   color: #f7b600;
+}
+
+/*Fim Cabeçalho*/
+
+/*Postagens*/
+
+#area-postagens {
+   width: 920px;
+   margin: 0 auto;
+}
+
+#area-principal1 {
+   width: 680px;
+   height: auto;
+   background-color: white;
+   margin: 12px auto;
+   float: left;
+}
+
+.titulos-postagens {
+   color: #f7b600;
+   padding-left: 8px;
+   padding-top: 8px;
+}
+
+.data-postagens {
+   font-size: 13px;
+   padding-left: 8px;
+   padding-bottom: 12px;
+}
+
+.fotos-postagens {
+   margin-left: auto;
+   margin-right: auto;
+}
+
+/*Fim Postagens*/
+
+/*Area Lateral*/
+
+#menu-lateral {
+   width: 220px;
+   background-color: white;
+   float: right;
+   margin: 12px auto;
+}
+
+
+
+/*Fim Area Lateral*/
+
+/*Rodapé*/
+
+#rodape {
+   text-align: center;
+   width: 250px;
+   padding: 10px;
+   margin: 0 auto;
+   border-radius: 4px;
+   background-color: #f7b600;
+   color: white;
+   clear: both;
+}
