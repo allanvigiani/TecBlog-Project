@@ -31,12 +31,12 @@ body {
    font-size: 15px;
 }
 
-a:link, a:visited {
+.menu:link, .menu:visited {
    text-decoration: none;
    color: white;
 }
 
-a:hover {
+.menu:hover {
    background-color: white;
    padding: 5px 10px;
    color: #f7b600;
@@ -47,16 +47,18 @@ a:hover {
 /*Postagens*/
 
 #area-postagens {
-   width: 920px;
+   width: 940px;
    margin: 0 auto;
 }
 
 #area-principal1 {
-   width: 680px;
+   width: 670px;
    height: auto;
+   border-radius: 2px;
    background-color: white;
    margin: 12px auto;
    float: left;
+   padding: 10px;
 }
 
 .titulos-postagens {
@@ -72,8 +74,21 @@ a:hover {
 }
 
 .fotos-postagens {
-   margin-left: auto;
-   margin-right: auto;
+   margin-left: 15px;
+   margin-right: 5px;
+}
+
+.par-postagens {
+   margin-left: 15px;
+   margin-right: 5px;
+   padding: 10px;
+}
+
+.link-postagens:link, .link-postagens:visited {
+   font-size: 16px;
+   color: #f7b600;
+   text-decoration: none;
+   margin-left: 25px;
 }
 
 /*Fim Postagens*/
@@ -82,13 +97,37 @@ a:hover {
 
 #menu-lateral {
    width: 220px;
+   border-radius: 2px;
    background-color: white;
    float: right;
    margin: 12px auto;
+   padding: 8px;
 }
 
+.titulo-lateral {
+   background-color: #f7b600;
+   color: white;
+   padding: 4px;
+   margin: auto;
+}
 
+.par-lateral {
+   font-size: 14px;
+   padding: 4px;
+}
 
+.link-lateral {
+   font-size: 12px;
+   color: #f7b600;
+   padding: 4px;
+   text-decoration: underline;
+}
+
+.link-redessociais {
+   font-size: 16px;
+   padding: 4px;
+   color: #f7b600;
+}
 /*Fim Area Lateral*/
 
 /*Rodapé*/
@@ -98,7 +137,7 @@ a:hover {
    width: 250px;
    padding: 10px;
    margin: 0 auto;
-   border-radius: 4px;
+   border-radius: 2px;
    background-color: #f7b600;
    color: white;
    clear: both;
